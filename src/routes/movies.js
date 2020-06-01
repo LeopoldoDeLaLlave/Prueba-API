@@ -20,7 +20,7 @@ router.post('/', (req, res)=>{
         movies.push(newMovie);
         res.json(movies);
     }else{
-        res.send("no guardado"); 
+        res.send("no guardado");  
     }
 });
 
